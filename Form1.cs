@@ -4,8 +4,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
+
 using Microsoft.VisualBasic;
 
 namespace Consumo2WebAPIRENIEC
@@ -13,10 +12,6 @@ namespace Consumo2WebAPIRENIEC
     public partial class Form1 : Form
     {
         private static readonly HttpClient _httpClient;
-        private static readonly JsonSerializerOptions _jsonOptions = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true
-        };
 
         static Form1()
         {
@@ -118,7 +113,7 @@ namespace Consumo2WebAPIRENIEC
                     // Intentamos primero deserializar envoltorios comunes
                     try
                     {
-                        var envelope = JsonSerializer.Deserialize<ApiResponse<TPayload>>(content, _jsonOptions);
+
                         if (envelope != null)
                         {
                             var payload = envelope.Payload;
@@ -140,7 +135,7 @@ namespace Consumo2WebAPIRENIEC
 
                     try
                     {
-                        var payload = JsonSerializer.Deserialize<TPayload>(content, _jsonOptions);
+
                         if (payload == null)
                         {
                             throw new InvalidOperationException("La respuesta de la API no contiene datos.");
@@ -187,7 +182,7 @@ namespace Consumo2WebAPIRENIEC
             public string Estado { get; set; }
 
             [JsonExtensionData]
-            public Dictionary<string, JsonElement> Extras { get; set; }
+
         }
 
         public class AprobadaDto : PersonaBaseDto
