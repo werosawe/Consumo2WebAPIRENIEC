@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Consumo2WebAPIRENIEC")]
+[assembly: AssemblyTitle("DA")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Consumo2WebAPIRENIEC")]
+[assembly: AssemblyProduct("DA")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("abbb73b2-33c0-421d-abb1-3d6cc3cb04ab")]
+[assembly: Guid("f7e76d7a-8533-469f-b4e0-cb3b6761cb24")]
 
 // Version information for an assembly consists of the following four values:
 //

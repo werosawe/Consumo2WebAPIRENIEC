@@ -1,0 +1,72 @@
+[
+    {
+        "dni": "95976597",
+        "id_unico": "fb18ad40-06e0-44a3-b1cd-918c2a609c47",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/fb18ad40-06e0-44a3-b1cd-918c2a609c47.pdf"
+    },
+    {
+        "dni": "50157065",
+        "id_unico": "75d17aa4-61cc-42b8-92b0-54d8a7d6a94e",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/75d17aa4-61cc-42b8-92b0-54d8a7d6a94e.pdf"
+    },
+    {
+        "dni": "52881463",
+        "id_unico": "fbfa4845-33c5-4ccd-abfd-3f80a4cf598a",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/fbfa4845-33c5-4ccd-abfd-3f80a4cf598a.pdf"
+    },
+    {
+        "dni": "57632277",
+        "id_unico": "d0557b83-7e71-4a2c-9fee-2cff32e7e706",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/d0557b83-7e71-4a2c-9fee-2cff32e7e706.pdf"
+    },
+    {
+        "dni": "33422116",
+        "id_unico": "cdec6012-bb6d-4be0-a8cf-82503829fd7d",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/cdec6012-bb6d-4be0-a8cf-82503829fd7d.pdf"
+    },
+    {
+        "dni": "16369082",
+        "id_unico": "010efd5a-df18-4968-9abb-8ff47773a5fc",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/010efd5a-df18-4968-9abb-8ff47773a5fc.pdf"
+    },
+    {
+        "dni": "65832331",
+        "id_unico": "82a372be-fb4a-4c0d-888b-13463b8107bd",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/82a372be-fb4a-4c0d-888b-13463b8107bd.pdf"
+    },
+    {
+        "dni": "37281897",
+        "id_unico": "d37b2726-6a16-4bb8-9ba9-2d616fd51ae1",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/d37b2726-6a16-4bb8-9ba9-2d616fd51ae1.pdf"
+    },
+    {
+        "dni": "73697540",
+        "id_unico": "1116758e-502d-4529-8e07-f2ec99cf466d",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/1116758e-502d-4529-8e07-f2ec99cf466d.pdf"
+    },
+    {
+        "dni": "12962739",
+        "id_unico": "6c73673e-7038-49c0-a768-8ba4e2d45926",
+        "fecha_afiliacion": "2025-09-26 15:24:23",
+        "codOp": "IT19",
+        "ficha_afiliacion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/6c73673e-7038-49c0-a768-8ba4e2d45926.pdf"
+    }
+]

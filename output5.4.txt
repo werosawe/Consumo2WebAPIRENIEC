@@ -1,0 +1,9 @@
+[
+    {
+        "dni": "44395309",
+        "id_unico": "8a9c9f02-ac13-4f4a-bab4-645e23efcd33",
+        "fecha_adhesion": "2025-09-26 15:32:17",
+        "codOp": "IT19",
+        "ficha_adhesion": "https://pkioc.reniec.gob.pe/afiliacionpp/backend-afiliacion/documento/descargar/adhesiones/8a9c9f02-ac13-4f4a-bab4-645e23efcd33.pdf"
+    }
+]
