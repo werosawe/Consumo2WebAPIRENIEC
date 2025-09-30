@@ -83,5 +83,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL\Consumo2WebAPIRENIEC.BL.csproj">
+      <Project>{CB3A863C-D753-4A88-8E8B-7F00944C413F}</Project>
+      <Name>Consumo2WebAPIRENIEC.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BE\Consumo2WebAPIRENIEC.BE.csproj">
+      <Project>{C74EF4F7-08E3-4D68-BC48-5571CE60817B}</Project>
+      <Name>Consumo2WebAPIRENIEC.BE</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
