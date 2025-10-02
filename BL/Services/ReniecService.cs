@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Consumo2WebAPIRENIEC.BE.Entities;
 using Consumo2WebAPIRENIEC.DA.Services;
@@ -32,6 +33,36 @@ namespace Consumo2WebAPIRENIEC.BL.Services
             }
 
             return _reniecApiClient.ConsultarAsync(request);
+        }
+
+        public Task<IReadOnlyList<ReniecAfiliacion>> ObtenerAfiliacionesAprobadasAsync(string parametro, string token)
+        {
+            if (string.IsNullOrWhiteSpace(parametro))
+            {
+                throw new ArgumentException("Value cannot be null or whitespace.", "parametro");
+            }
+
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                throw new ArgumentException("Value cannot be null or whitespace.", "token");
+            }
+
+            return _reniecApiClient.ObtenerAfiliacionesAprobadasAsync(parametro, token);
+        }
+
+        public Task<IReadOnlyList<ReniecAdhesion>> ObtenerAdhesionesAsync(string parametro, string token)
+        {
+            if (string.IsNullOrWhiteSpace(parametro))
+            {
+                throw new ArgumentException("Value cannot be null or whitespace.", "parametro");
+            }
+
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                throw new ArgumentException("Value cannot be null or whitespace.", "token");
+            }
+
+            return _reniecApiClient.ObtenerAdhesionesAsync(parametro, token);
         }
     }
 }
